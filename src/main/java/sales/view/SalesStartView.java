@@ -10,7 +10,7 @@ public class SalesStartView {
 	public static void main(String[] args) throws SQLException {
 
 
-		System.out.println("***** 분기,지역으로 검색 *****");
+		System.out.println("*****분기,지역으로 검색 *****");
 		List<Object> all3 = SalesDAO.selectAllQuarterAndArea(new SalesDTO(4, "서대문구"));
 		int a = 0;
 		if (!all3.isEmpty()) {
