@@ -22,7 +22,7 @@ public class SalesStartView {
 				System.out.println(value2);
 			}
 		}
-		System.out.println("*****지역으로만  검색 *****");
+		System.out.println("***** 지역으로만  검색 *****");
 		List<Object> all = SalesDAO.selectAllArea(new SalesDTO( "서대문구"));
 		int b = 0;
 		if (!all.isEmpty()) {
